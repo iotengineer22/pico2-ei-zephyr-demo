@@ -55,4 +55,4 @@ To get this running on your own board, follow these steps:
     west build -p -b rpi_pico2/rp2350a/m33/w
 
     # Flash it to the device
-    Flash uf2 file.
+    (*Flash uf2 file.)
