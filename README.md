@@ -2,7 +2,7 @@
 This repository presents a Zephyr Demo with Edge Impulse and Raspberry Pi Pico2(W)
 
 ## Introduction
-This repository showcases examples of gesture and voice recognition using external sensors with the **Raspberry Pi Pico2(W)**.
+This repository showcases examples of gesture recognition using external sensors with the **Raspberry Pi Pico2(W)**.
 
 The projects are built with the Zephyr RTOS and leverage machine learning models deployed from Edge Impulse.
 
