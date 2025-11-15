@@ -22,16 +22,15 @@ The projects are built with the Zephyr RTOS and leverage machine learning models
 ## Demo Videos
 
 See the examples in action on YouTube:
-
-*   **Gesture Recognition Demo:** [https://youtu.be/FqW0INMxQlg](https://youtu.be/FqW0INMxQlg)
-*   **Voice Recognition Demo:** [https://youtu.be/IbxTMiPwFTU](https://youtu.be/IbxTMiPwFTU)
+*   **Gesture Datafowarder Demo:** [https://youtu.be/5CdPXB99Jo0](https://youtu.be/5CdPXB99Jo0)
+*   **Gesture Recognition Demo:** [https://youtu.be/kFZd0z9Mo5U](https://youtu.be/kFZd0z9Mo5U)
 
 ## Overview
 
 The core logic for each example is straightforward:
 
 *   **Gesture Recognition:**
-    1.  The application captures 2 seconds of data from a 3-axis accelerometer (X, Y, Z) at 100Hz.
+    1.  The application captures 2 seconds of data from a 3-axis accelerometer (X, Y, Z) at 104Hz.
     2.  It runs inference on the collected data to classify the gesture.
     3.  This process repeats in a continuous loop.
 
@@ -53,9 +52,7 @@ To get this running on your own board, follow these steps:
 
     ```bash
     # Build the application
-    west build -p -b rpi_pico_w
+    west build -p -b rpi_pico2/rp2350a/m33/w
 
     # Flash it to the device
-    west flash
-    ```
-    (For the non-Wi-Fi Pico, change the board name to `rpi_pico`).
+    Flash uf2 file.
