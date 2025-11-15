@@ -56,3 +56,11 @@ To get this running on your own board, follow these steps:
 
     # Flash it to the device
     (*Flash uf2 file.)
+
+## Refernce
+
+This repository references the following repository:
+
+https://github.com/iotengineer22/zephyr-ei-xiao-nrf-demo
+
+https://github.com/Bucknalla/pico-zephyr-serial
