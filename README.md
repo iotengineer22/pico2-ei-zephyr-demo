@@ -48,7 +48,7 @@ To get this running on your own board, follow these steps:
     *   Copy all the contents (the `edge-impulse-sdk/`, `model-parameters/`, and `tflite-model/` directories) into the `src` folder of this Zephyr project, overwriting the existing files.
 
 3.  **Build and Flash:**
-    *   Open your terminal, navigate to the project directory, and run the standard Zephyr build and flash commands for your board. For the Raspberry Pi Pico W, it would be:
+    *   Open your terminal, navigate to the project directory, and run the standard Zephyr build and flash commands for your board. For the Raspberry Pi Pico2(W), it would be:
 
     ```bash
     # Build the application
