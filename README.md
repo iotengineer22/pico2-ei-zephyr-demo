@@ -34,6 +34,14 @@ The core logic for each example is straightforward:
     2.  It runs inference on the collected data to classify the gesture.
     3.  This process repeats in a continuous loop.
 
+## Connection
+
+pico2(W)	Sensor(MPU-6050)
+39_VSYS		1_VCC
+38_GND		2_GND
+7_I2C0_SCL	3_SCL
+7_I2C0_SDA	4_SDA
+
 ## How to Build and Run
 
 To get this running on your own board, follow these steps:
