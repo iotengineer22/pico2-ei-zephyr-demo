@@ -10,7 +10,8 @@ The projects are built with the Zephyr RTOS and leverage machine learning models
 
 
 ## Structure
-    .  
+    .
+    ├── pcb                                             # PCB files(KiCad, gerber, bom, schematics) 
     ├── src                                             # Program and board files 
     │    ├── pico2w                                     # Raspberry Pi Pico2(W)
     │    │    ├── pico-imu_dataforwarder                # Collecting accel sensor data
