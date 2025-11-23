@@ -1,0 +1,6 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+60.0,-70.0,0.0,top,J1,,,PinSocket_1x20_P2.54mm_Vertical,Conn_01x20_Socket,tht
+77.78,-70.0,0.0,top,J2,,,PinSocket_1x20_P2.54mm_Vertical,Conn_01x20_Socket,tht
+71.628,-102.6668,180.0,bottom,J3,,,PinSocket_1x06_P2.54mm_Vertical,Conn_01x06_Socket,tht
+65.8368,-76.5556,180.0,bottom,J4,,,PinSocket_1x08_P2.54mm_Vertical,Conn_01x08_Socket,tht
+72.365,-81.1426,180.0,bottom,J5,,,PinSocket_1x03_P2.54mm_Vertical,Conn_01x03_Socket,tht
