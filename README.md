@@ -37,15 +37,16 @@ The core logic for each example is straightforward:
 
 ## Connection
 
-pico2(W)	-    Sensor(MPU-6050)
+In the `pcb` folder, connect the Pico2(W) and the Sensor using the 'Add Board' feature.
 
-39_VSYS		-    1_VCC
+Alternatively, you can wire them on a breadboard as follows:
 
-38_GND		-    2_GND
-
-7_I2C0_SCL	-    3_SCL
-
-6_I2C0_SDA	-    4_SDA
+| Pico2(W) | Sensor (MPU-6050) |
+| :--- | :--- |
+| 39 (VSYS) | 1 (VCC) |
+| 38 (GND) | 2 (GND) |
+| 7 (I2C0 SCL) | 3 (SCL) |
+| 6 (I2C0 SDA) | 4 (SDA) |
 
 
 ## How to Build and Run
