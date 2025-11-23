@@ -36,15 +36,15 @@ The core logic for each example is straightforward:
 
 ## Connection
 
-pico2(W)	Sensor(MPU-6050)
+pico2(W)	-    Sensor(MPU-6050)
 
-39_VSYS		1_VCC
+39_VSYS		-    1_VCC
 
-38_GND		2_GND
+38_GND		-    2_GND
 
-7_I2C0_SCL	3_SCL
+7_I2C0_SCL	-    3_SCL
 
-6_I2C0_SDA	4_SDA
+6_I2C0_SDA	-    4_SDA
 
 
 ## How to Build and Run
